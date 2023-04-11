@@ -34,6 +34,7 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 20px; /* add some space between the columns */
+  padding: 3rem;
 }
 
 .card-container {

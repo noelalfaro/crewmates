@@ -19,8 +19,7 @@ a {
   text-decoration: inherit;
 }
 a:hover {
-  color: #535cff;
-  /* text-decoration: underline; */
+  color: #8b90f2;
 }
 
 body {
@@ -33,7 +32,6 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
-  margin: 0;
 }
 
 h3 {
@@ -65,7 +63,7 @@ button:focus-visible {
     background-color: #ffffff;
   }
   a:hover {
-    color: #747bff;
+    color: #5058f9;
   }
   button {
     background-color: #f9f9f9;

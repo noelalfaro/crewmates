@@ -1,12 +1,11 @@
 import React from 'react'
 import { useState, useEffect } from 'react';
-// import '../../App.css'
 import { supabase } from '../Client'
 import Card from './Card';
 
 export default function Gallery() {
 
-    const [crewmates, setCrewmates] = useState({ name: "", speed: "", color: "" });
+    const [crewmates, setCrewmates] = useState([]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -15,23 +14,21 @@ export default function Gallery() {
                 .select()
                 .order('created_at', { ascending: true })
 
-
-            // set state of posts
             setCrewmates(data);
-            console.log('crewmates: ', crewmates);
         };
         fetchData();
     }, [])
+
     return (
         <div className='App'>
             {
                 crewmates && crewmates.length > 0 ?
-                    crewmates.map((crewmate) =>
-                        <div className='crewmate-gallery'>
-                            <Card crewmate={crewmate.name}></Card>
-                            {/* <h1>{crewmates.Name}</h1> */}
-                        </div>
-                    ) : <h1> no crewmates</h1>
+                    <div className='crewmate-gallery'>
+                        {crewmates.map((crewmate) => (
+                            <Card name={crewmate.name} speed={crewmate.speed} color={crewmate.color} key={crewmate.id} />
+                        ))}
+                    </div>
+                    : <h1> no crewmates 😔</h1>
             }
         </div>
     )

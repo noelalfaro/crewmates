@@ -2,7 +2,7 @@
 
 Submitted by: Noel Alfaro
 
-This web app: **insert description**
+Create your own, edit & delete others, or view the gallery of all the crewmates currently in the database.
 
 Time spent: **4** hours spent in total
 
@@ -10,9 +10,9 @@ Time spent: **4** hours spent in total
 
 The following **required** functionality is completed:
 
-- [ ] **A create form allows users to add new cremates**
-- [ ] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
-- [ ] **The site displays a summary page of all the user's added crewmates**
+- [x] **A create form allows users to add new cremates**
+- [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
+- [x] **The site displays a summary page of all the user's added crewmates**
 - [ ] **A previously created crewmate can be updated and deleted from the crewmate list**
 - [ ] **Each crewmate has a direct, unique link to an info page about them**
 
@@ -30,7 +30,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./assets/gif-kapture.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
