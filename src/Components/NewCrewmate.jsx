@@ -42,7 +42,7 @@ export default function NewCrewmate() {
     return (
         <div className='App'>
             <h1>Create a Crewmate</h1>
-            <form onSubmit={createCrewmate}>
+            <form onSubmit={createCrewmate} autocomplete="off">
                 <label for="title">Name</label> <br />
                 <input type="text" id="name" name="name" value={crewmates.name} onChange={onChange} /><br />
                 <br />
