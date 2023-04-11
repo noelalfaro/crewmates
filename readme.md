@@ -2,7 +2,7 @@
 
 Submitted by: Noel Alfaro
 
-Create your own, edit & delete others, or view the gallery of all the crewmates currently in the database.
+Create your own, edit & delete others, or view the gallery of all the crewmates currently in the database. This project uses react-router-dom and the supabase database to allow users to view different pages where they can view and add their own crewmates to the database.
 
 Time spent: **4** hours spent in total
 
@@ -34,7 +34,7 @@ Here's a walkthrough of implemented user stories:
 
 <!-- Replace this with whatever GIF tool you used! -->
 
-GIF created with ...
+GIF created with [Kap](https://getkap.co/) for macOS
 
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
@@ -47,7 +47,7 @@ Because of time constraints with school projects and working at my job the requi
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2023
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
