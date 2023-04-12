@@ -2,9 +2,9 @@
 
 Submitted by: Noel Alfaro
 
-Create your own, edit & delete others, or view the gallery of all the crewmates currently in the database. This project uses react-router-dom and the supabase database to allow users to view different pages where they can view and add their own crewmates to the database.
+Create your own, edit & delete others, or view the gallery of all the crewmates currently in the database. This project uses react-router-dom and the supabase database & API to allow users to view different pages where they can view, edit, and create their own crewmates to the database.
 
-Time spent: **4** hours spent in total
+Time spent: **8** hours spent in total
 
 ## Required Features
 
@@ -13,8 +13,8 @@ The following **required** functionality is completed:
 - [x] **A create form allows users to add new cremates**
 - [x] **Users can name the crewmate and set the crewmate's attributes by clicking on one of several values**
 - [x] **The site displays a summary page of all the user's added crewmates**
-- [ ] **A previously created crewmate can be updated and deleted from the crewmate list**
-- [ ] **Each crewmate has a direct, unique link to an info page about them**
+- [x] **A previously created crewmate can be updated and deleted from the crewmate list**
+- [x] **Each crewmate has a direct, unique link to an info page about them**
 
 The following **optional** features are implemented:
 
@@ -24,13 +24,13 @@ The following **optional** features are implemented:
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you added to improve the site's functionality!
+Light and Dark mode implemented
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='./src/assets/gif-kapture2.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='./src/assets/gif-kapture3.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
 
@@ -42,8 +42,6 @@ GIF created with [Kap](https://getkap.co/) for macOS
 [peek](https://github.com/phw/peek) for Linux. -->
 
 ## Notes
-
-Because of time constraints with school projects and working at my job the requirements are still not complete but will be soon.
 
 ## License
 

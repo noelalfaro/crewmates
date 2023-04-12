@@ -32,6 +32,7 @@ body {
 h1 {
   font-size: 3.2em;
   line-height: 1.1;
+  margin: 20px;
 }
 
 h3 {
@@ -39,22 +40,18 @@ h3 {
 }
 
 button {
-  border-radius: 8px;
-  border: 1px solid transparent;
-  padding: 0.6em 1.2em;
-  font-size: 1em;
-  font-weight: 500;
-  font-family: inherit;
-  background-color: #1a1a1a;
+  padding: 15px;
+  border-radius: 6px;
+  width: 100px;
+  outline: none;
+  border: none;
+  background-color: rgb(198, 8, 8);
+  color: #ffffff;
   cursor: pointer;
-  transition: border-color 0.25s;
-}
-button:hover {
-  border-color: #646cff;
-}
-button:focus,
-button:focus-visible {
-  outline: 4px auto -webkit-focus-ring-color;
+  margin: 10px;
+  font-weight: 700;
+  font-size: 20px;
+  transition: all 0.1s ease;
 }
 
 @media (prefers-color-scheme: light) {
@@ -66,6 +63,28 @@ button:focus-visible {
     color: #5058f9;
   }
   button {
-    background-color: #f9f9f9;
+    background-color: rgb(199, 4, 4);
+  }
+
+  .nav-bar {
+    background-color: #ffffff;
+  }
+
+  .card-container {
+    background-color: #e5e3e3;
+  }
+
+  .card-container:hover {
+    background-color: #565656;
+    color: #dcdcdc;
+  }
+  input[type="text"],
+  input[type="number"] {
+    background-color: #e9e6e6;
+  }
+
+  input[type="submit"] {
+    background-color: #213547;
+    color: #ffffff;
   }
 }

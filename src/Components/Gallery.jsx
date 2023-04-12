@@ -21,14 +21,15 @@ export default function Gallery() {
 
     return (
         <div className='App'>
+            <h1>Gallery</h1>
             {
                 crewmates && crewmates.length > 0 ?
                     <div className='crewmate-gallery'>
                         {crewmates.map((crewmate) => (
-                            <Card name={crewmate.name} speed={crewmate.speed} color={crewmate.color} key={crewmate.id} />
+                            <Card name={crewmate.name} speed={crewmate.speed} color={crewmate.color} key={crewmate.id} id={crewmate.id} />
                         ))}
                     </div>
-                    : <h1> no crewmates 😔</h1>
+                    : ""
             }
         </div>
     )
